@@ -1,31 +1,25 @@
-
-/* START VISIBILITY HELPER */
-
-/*
-body {
-	background-color: LightGray;
+/* Navigation Section */
+.top-navigation {
+	background-color: #fff;
 }
 
-div {
-	border: 1px solid Chocolate;
-}
-
-/* END VISIBILITY HELPER*/
-
-.navbar {
-	height: 4em;
+.top-navigation > .content {
+	width: 60%;
+	height: 4.375em;
+	margin: 0 auto;
 }
 
 .logo {
+	display: inline;
 	width: 1.5em;
+}
+
+.links {
+	display: inline;
 }
 
 .links > li {
 	display: inline;
 	padding: 0 1em;
 	font-family: Arial, sans-serif;
-}
-
-a {
-	text-decoration: none;
 }
