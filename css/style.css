@@ -8,18 +8,3 @@
 	height: 4.375em;
 	margin: 0 auto;
 }
-
-.logo {
-	display: inline;
-	width: 1.5em;
-}
-
-.links {
-	display: inline;
-}
-
-.links > li {
-	display: inline;
-	padding: 0 1em;
-	font-family: Arial, sans-serif;
-}
