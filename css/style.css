@@ -42,3 +42,12 @@
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
 }
+
+/* Introduction Section */
+
+.introduction {
+	background-image: url(../images/first-background.jpg);
+	background-size: cover;
+	margin: 0 2.5em;
+	height: 20em;
+}
