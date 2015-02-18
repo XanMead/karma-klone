@@ -49,5 +49,37 @@
 	background-image: url(../images/first-background.jpg);
 	background-size: cover;
 	margin: 0 2.5em;
-	height: 20em;
+	height: 30em;
+}
+
+.introduction h1,
+.introduction h3 {
+	color: #ddd;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.introduction h1 {
+	font-size: 3.125rem;
+	margin-top: 17.5rem;
+}
+
+.introduction h3 {
+	font-size: 1.5rem;
+}
+
+.introduction > .content {
+	margin: auto;
+}
+
+button {
+	background-color: #f15a29;
+	border-radius: 4px;
+	padding: 1rem, 1.5rem;
+	color: #ddd;
+	font-size: 1.125rem;
+}
+
+button:hover {
+	background-color: #d9400e;
 }
