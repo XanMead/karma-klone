@@ -12,6 +12,8 @@
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
+	margin: 0 auto;
+	width: 970px;
 }
 
 .top-navigation .links .active {
@@ -47,15 +49,18 @@
 
 .introduction {
 	background-image: url(../images/first-background.jpg);
+	background-position: center bottom;
+	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0 2.5em;
-	height: 30em;
+	height: 45.938rem;
 }
 
 .introduction h1,
 .introduction h3 {
 	color: #ddd;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	text-align: center;
 }
 
@@ -67,10 +72,6 @@
 .introduction h3 {
 	font-size: 1.5rem;
 	margin-top: 1.5rem;
-}
-
-.introduction > .content {
-	margin: auto;
 }
 
 .introduction .buttons {
@@ -89,4 +90,5 @@ button {
 
 button:hover {
 	background-color: #d9400e;
+	cursor: pointer;
 }
