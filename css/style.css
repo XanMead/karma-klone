@@ -54,6 +54,7 @@
 	background-size: cover;
 	margin: 0 2.5em;
 	height: 45.938rem;
+	overflow: auto;
 }
 
 .introduction h1,
