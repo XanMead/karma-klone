@@ -1,4 +1,5 @@
 /* Navigation Section */
+
 .top-navigation {
 	background-color: #fff;
 
@@ -94,4 +95,22 @@
 .big-button:hover {
 	background-color: #d9400e;
 	cursor: pointer;
+}
+
+/* Icons Section*/
+
+.cases .content {
+	margin-top: 7.875rem;
+	text-align: center;
+	color: #1d1e21;
+}
+
+.devices {
+	list-style: none;
+}
+
+.devices > li {
+	display: inline-block;
+	width: 33.3333%;
+	float: left; /* Why? */
 }
