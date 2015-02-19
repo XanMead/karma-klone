@@ -108,6 +108,13 @@
 .cases h2 {
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+}
+
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0 1.875rem;
 }
 
 .devices {
