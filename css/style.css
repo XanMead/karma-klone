@@ -2,7 +2,9 @@
 
 .top-navigation {
 	background-color: #fff;
-
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .content {
@@ -124,5 +126,5 @@
 .devices > li {
 	display: inline-block;
 	width: 33.3333%;
-	float: left; /* Why? */
+	float: left;
 }
