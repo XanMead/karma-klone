@@ -135,3 +135,6 @@
 	clear: left;
 }
 
+.icons > li {
+	display: inline-block;
+}
