@@ -1,10 +1,5 @@
-/* Navigation Section */
-
-.top-navigation {
-	background-color: #fff;
-	position: fixed;
-	width: 100%;
-	z-index: 9999;
+body {
+	font-family: 'Roboto', sans-serif;
 }
 
 .content {
@@ -17,6 +12,15 @@
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	margin: 0 auto;
 	width: 970px;
+}
+
+/* Navigation Section */
+
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation .links .active {
@@ -101,10 +105,15 @@
 
 /* Icons Section*/
 
+.cases {
+	overflow: hidden;
+}
+
 .cases .content {
 	margin-top: 7.875rem;
 	text-align: center;
 	color: #1d1e21;
+	padding-bottom: 5rem;
 }
 
 .cases h2 {
@@ -131,10 +140,41 @@
 
 /* Footer Section */
 
-.social {
+hr {
+	margin: 3rem 10rem 1.375rem;
 	clear: left;
 }
 
-.icons > li {
+.social {
+	clear: left;
+	text-align: center;
+	padding-bottom: 5rem;
+}
+
+.social .icons li {
 	display: inline-block;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 1.25rem;
+	border: 2px solid #ddd;
+	padding: 0.625rem 0;
+	margin: 1.25rem 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .facebook {
+	color: #4c66a4;
+}
+
+.social .instagram {
+	color: #3f729b;
+}
+
+.copy {
+	color: #bbb;
 }
